@@ -11,26 +11,16 @@
     <script src="/js/common.bundle.js"></script>
     <script src="/socket.io/socket.io.js"></script>-->
     <link rel="alternate" href="?applang=en" hreflang="en-us">
-    <link rel="alternate" href="?applang=de" hreflang="de-de">
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="app.css" media="screen" type="text/css"/>
   </head>
   <body class="ibm-type" id="ibm-com">
-    <div class="ibm-landing-page" id="ibm-top">
-      <div id="ibm-masthead" role="banner" aria-label="JeeBC">
-        <div id="ibm-mast-options">
-          <ul role="toolbar" aria-labelledby="ibm-masthead"></ul>
-        </div>
-        <div id="ibm-universal-nav">
-          <div id="ibm-home"><a href="/">JeeBC</a></div>
-          <ul id="ibm-menu-links" role="toolbar" aria-label="Site map"></ul>
-        </div>
-      </div>
-    </div>
+    
+
     <div id="ibm-content-wrapper">
-      <header>
-        <div class="ibm-sitenav-menu-container">
-          <div class="ibm-sitenav-menu-name"><a href="/">JeeBC</a></div>
+      <header class="ibm-sitenav-menu-container">
+        <!--<div class="ibm-sitenav-menu-container">rgb(0, 67, 206);  #054ada; #ffffff;-->
+          <div class="ibm-sitenav-menu-name">JeeBC</div>
           <div class="ibm-sitenav-menu-list">
             <ul role="menubar">
               <li  role="presentation"><a role="menuitem" href="/">Home</a></li>
@@ -90,15 +80,16 @@
                 </ul>
               </li>-->
             </ul>
-          </div>
-        </div>
+          
+        <!--</div>-->
       </header>
+    </div>
       <main role="main" aria-labelledby="ibm-pagetitle-h1">
         <div id="ibm-pcon">
           <div id="ibm-content">
             <div id="ibm-content-body">
               <div id="ibm-content-main">
-                <div class="ibm-columns"></div>
+                <div class="ibm-columns">
                   <div class="ibm-col-5-1"></div>
                   <div class="ibm-col-5-3">
                     <div class="network-container">
@@ -172,12 +163,18 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> 
       </main>
+      <!--<menu label="File" style="position: relative;">
+        <button type="button" onClick="JavaScript:alert('Here, you can insure your account, gadgets, or income against all manner of issues including scams, theft, suspensions, delayed payments etc. the contract period is 12 months. Upon expiry of your contract, you will have to renew it.')">Read more about Insurance & Claims</button>
+        <button type="button" onClick="JavaScript:alert('Buy investment products such as debts, equities. Use your investment as collaterall & borrow loans of upto 100% of your invested amount')">Read more about Investments & Loans</button>
+        <button type="button" onClick="JavaScript:alert('tired or bored? book a trip or retreat conveniently. Each booking is fully insured against unexpected events in your travel destination. so you focus on relaxing only')">Read more about Holidays & Retreats</button>
+        <button type="button" onClick="JavaScript:alert('Send money to a blockchain address, withdraw money to your web 2 wallet, and pay for services from anywhere in the world securely with our peer to peer money transfer service')"> Read more about Wallet & Money</button>
+       </menu> -->
       <footer>
         <div class="ibm-columns ibm-padding-content">
           <div class="ibm-col-4-1 ibm-col-medium-4-2 ibm-fright" id="ibm-footer-locale-selector" style="padding-top: 20px;">
-            <h3 class="ibm-bold">Select a country/region:</h3>
+            <h3 class="ibm-bold" >Select a Country/Language:</h3>
             <select id="region-selector" style="width: 100%;">
               <option value="" selected>&nbsp;</option>
               <option value="en">English</option>
@@ -192,15 +189,19 @@
         </div>
         <div id="ibm-footer"></div>
         <h1 role="presentation" style= "padding-left: 20px" >Jee BlockChain<h1>
-          <h2 role="presentation" style= "padding-left: 20px">The OnDemand BlockChain for Freelancers, Digital Nomads, Remote Workers, travellers/adventurists/tourists, self-employed. For those who like a no strings attached lifestyle while safeguarding your lives & experiences</h2>
-          <h2 role="presentation" style= "padding-left: 20px">Gigs, Insurance, Holidays, Investments, Loans, & Gig Crypto All in One Perk Anywhere you are.</h2>
-          <h3 role="presentation" style= "padding-left: 20px">Enabling freelancers, digital nomads, remote workers, tourists/adventurists/travellers fast access to gigs & cash in the form of insurance payouts, investment income, loans, or holiday payouts whenever there is a need while generating freedoms Crypto </h3>
-          <h3 role="presentation" style= "padding-left: 20px">Motto: 'Heri Jina Kuliko Pesa'</h3>  
-          <h2 role="presentation" style= "padding-left: 20px" >Address: JeeBC@mailchain.</h2>
+        <h2 role="presentation" style= "padding-left: 20px">The OnDemand BlockChain for Freelancers, Digital Nomads, Remote Workers, travellers/adventurists/tourists, self-employed. For those who like a no strings attached lifestyle while safeguarding your lives & experiences</h2>
+        <h2 role="presentation" style= "padding-left: 20px">Gigs, Insurance, Holidays, Investments, Loans, & Gig Crypto All in One Perk Anywhere you are.</h2>
+        <h3 role="presentation" style= "padding-left: 20px">Enabling freelancers, digital nomads, remote workers, tourists/adventurists/travellers fast access to gigs & cash in the form of insurance payouts, investment income, loans, or holiday payouts whenever there is a need while generating freedoms Crypto </h3>
+        <h3 role="presentation" style= "padding-left: 20px">Motto: 'Heri Jina Kuliko Pesa'</h3>  
+        <h2 role="presentation" style= "padding-left: 20px" >Address: JeeBC@mailchain.</h2>
+             
+         
+      
       </footer>
+
     </div>
     <div id="block-explorer"></div>
-    <!--<script src="/js/block-explorer.bundle.js"></script>
-     scripts section-->
+    <script src="/js/block-explorer.bundle.js"></script>
+    <!--scripts section-->
   </body>
 </html>
